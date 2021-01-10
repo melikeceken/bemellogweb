@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Merhaba Hoşgeldiniz</h1>
+        <p class="lead">Analog fotoğrafların ve Analog kameraların dünyasını keşfetmek için Bemellog sizin yanınızda</p>
+        <hr class="my-4">
+        <p>Kayıt olmak için buraya giriş yapınız</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="/Identity/Account/Register" role="button">Kayıt ol</a>
+        </p>
+        <p>Giriş için buraya giriş yapınız</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="/Identity/Account/Login" role="button">Giriş yap</a>
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item active disabled">
+                   Kategori
+                </a>
+                <a href="/Home/Details" class="list-group-item list-group-item-action">Fotoğraflar</a>
+                <a href="/Photo/Details" class="list-group-item list-group-item-action">Slr Kameralar</a>
+                <a href="/Photo/Index" class="list-group-item list-group-item-action">Kompakt Kameralar</a>
+                <a href="/Photo/List" class="list-group-item list-group-item-action">Analog Filmler</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card ">
+                <div class="card-header">
+                    Fotoğraflar
+                </div>
+                <img class="card-img-top" src="~/img/1.jpg" alt="Card image cap">
+
+                <div class="card-block">
+                    <h4 class="card-title">Fotoğraflar</h4>
+                    <p class="card-text">Fotoğraf Dünyasını keşfetmek için butona tıklayınız</p>
+                    <a href="/Home/Details" class="btn btn-primary" >Tıkla</a>
+                   
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="card-header">
+                    Slr Kameralar
+                </div>
+                <img class="card-img-top" src="~/img/3907509.jpg" alt="Card image cap">
+
+                <div class="card-block">
+                    <h4 class="card-title">Slr Kamera</h4>
+                    <p class="card-text">Slr kameralar hakkında bilgi sahibi olmak için butona tıklayınız</p>
+                    <a href="/Photo/Details" class="btn btn-primary">Tıkla</a>
+
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="card-header">
+                    Kompakt Kameralar
+                </div>
+                <img class="card-img-top" src="~/img/4939936.jpg" alt="Card image cap">
+
+                <div class="card-block">
+                    <h4 class="card-title">Kompakt Kameralar</h4>
+                    <p class="card-text">Kompakt kameralar hakkında bilgi sahibi olmak için butona tıklayınız</p>
+                    <a href="/Photo/Index" class="btn btn-primary">Tıkla</a>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="card-header">
+                    Analog Filmler
+                </div>
+                <img class="card-img-top" src="~/img/film0.jpg" alt="Card image cap">
+
+                <div class="card-block">
+                    <h4 class="card-title">Analog Filmler</h4>
+                    <p class="card-text">Analog filmler hakkında bilgi sahibi olmak için butona tıklayınız.</p>
+                    <a href="/Photo/List" class="btn btn-primary">Tıkla</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
